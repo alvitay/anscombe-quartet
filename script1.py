@@ -1,7 +1,7 @@
 import seaborn as sns
 import seaborn.objects as so
 
-
+#load the data
 anscombe = sns.load_dataset('anscombe')
 
 print(anscombe.head())
